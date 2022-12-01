@@ -85,5 +85,17 @@ IMAGE_INSTALL_append_sama5d27-wlsom1-ek-sd += " \
 		kernel-modules \
 	"
 
+IMAGE_INSTALL_append_sama7g5ek-sd += " \
+                aziot-edged \
+                iotedge \
+                docker \
+                docker-ce \
+                ca-certificates \
+                connman \
+                connman-client \
+                iptables \
+                kernel-modules \
+        "
+
 inherit core-image
 
