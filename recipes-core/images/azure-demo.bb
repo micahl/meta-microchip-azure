@@ -74,7 +74,7 @@ IMAGE_INSTALL = "\
     "
 
 IMAGE_INSTALL_append_sama5d27-wlsom1-ek-sd += " \
-		aziotd \
+		aziot-edged \
 		iotedge \
 		docker \
 		docker-ce \
