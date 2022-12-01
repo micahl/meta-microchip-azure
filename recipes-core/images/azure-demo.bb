@@ -74,9 +74,8 @@ IMAGE_INSTALL = "\
     "
 
 IMAGE_INSTALL_append_sama5d27-wlsom1-ek-sd += " \
-		iotedge-daemon \
-		iotedge-cli \
-		libiothsm-std \
+		aziotd \
+		iotedge \
 		docker \
 		docker-ce \
 		ca-certificates \
